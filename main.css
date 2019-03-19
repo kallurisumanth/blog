@@ -1,0 +1,20 @@
+body{
+margin:0;
+padding:0;
+}
+.image{
+position:relative;
+background:#00dfff url(image.jpg);
+background-size:cover;
+background-position:0 0;
+height:100vh;
+animation:animate 15s linear infinite;
+}
+@keyframes animate{
+from{
+background-position:0 0;
+}
+to{
+background-position:100% 0;
+}
+}

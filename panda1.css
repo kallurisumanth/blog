@@ -1,0 +1,22 @@
+body{ 
+margin:0px;
+padding:0px;
+background-color: #FFA500;
+}
+.man{
+background:url(capguywalk.jpeg) no-repeat;
+width:184px;
+height:325px;
+margin:auto;
+}
+.man:hover{
+animation: walk 1s  infinite steps(8);
+}
+@keyframes walk{
+0%{
+background-position:0px;
+}
+100%{
+background-position:-1472px;
+}
+}
